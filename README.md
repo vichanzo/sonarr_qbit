@@ -2,7 +2,8 @@
 ### Sonarr and Qbit
 
 ```
-adduser --uid 1000 --password sonarr+qbit sonarrqbit 
+adduser -u 1000 -D sqbit
+echo sqbit:aSecur3Passw0rd | chpasswd
 git clone https://github.com/vichanzo/sonarr_qbit
 cd sonarr_qbit/
 docker-compose up -d
