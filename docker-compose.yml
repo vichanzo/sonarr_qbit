@@ -10,7 +10,7 @@ services:
     volumes:
       - ./sonarr:/config
       - ./download/tvseries:/tv #optional
-      - ./download/sonarr:/downloads #optional
+      - ./download/sq:/downloads #optional
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -24,8 +24,8 @@ services:
       - TZ=Europe/London
       - WEBUI_PORT=8080
     volumes:
-      - /path/to/appdata/config:/config
-      - /path/to/downloads:/downloads
+      - ./qbit:/config
+      - ./download/sq:/downloads
     ports:
       - 6881:6881
       - 6881:6881/udp
