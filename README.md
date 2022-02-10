@@ -2,6 +2,7 @@
 ##Sonarr and Qbit
 
 ```
-wget clone https://github.com/vichanzo/sonarr_qbit.git
+git clone https://github.com/vichanzo/sonarr_qbit
+cd sonarr_qbit/
 docker-compose up -d
 ``` 
