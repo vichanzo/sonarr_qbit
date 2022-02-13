@@ -58,3 +58,17 @@ services:
     ports:
       - 9117:9117
     restart: unless-stopped
+
+   rclone:
+    image: rclone/rclone
+    container_name: rclone
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ./rclone:/config/rclone
+      - ./mydata:/mydata
+    ports:
+      - 5572:5572
+    restart: unless-stopped
+ 
