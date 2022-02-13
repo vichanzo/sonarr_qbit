@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://acg.rip/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "_kanako_session=d6ZfHPoS31plVJ7GeZ7lhlatG3Vb2yVSer6OGD%2BqFYMWMkoh1u7BzNTF58qeyzKHNMiXqDtBxdOyR4D2IFdUXvf4FxdnVbZNz2OpMcjyap3aB8qMj5FiMrlBWUOZ0pnqeJvcZDoYDWGbw5mOwCYNxBUYCb3aaYahTN1pAGnb%2FcUJlUWWTLZhQkZSSNlm%2FWNyhRXpDCwBK%2F6dySyl7CLUMhc27hdiclw5mhskMgpjgXuHgW74im0l4y6NstLmpdkm4psdyjwDd1Rq1yAEugJpY%2FBVqMal340%3D--KXpDMUQDpFEnzgw3--BJ8I2kqp%2BX%2BsmzEXxQJIdQ%3D%3D"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": "Exception (acgrip): A task was canceled.: The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing."
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]
