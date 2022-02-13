@@ -37,6 +37,7 @@ git clone --branch testing https://github.com/vichanzo/sonarr_qbit
 Key git commands
 ```
 git config credential.helper store
+git config --global user.email "you@example.com"
 git clone --branch testing https://github.com/vichanzo/sonarr_qbit
 cd ~/sonarr_qbit
 touch this_file.txt
