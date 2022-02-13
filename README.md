@@ -26,3 +26,9 @@ What does this do?
 
 That's it.  After you finish this you can follow the guide by TechnoDadLife to set it up.  
      https://www.youtube.com/watch?v=5rtGBwBuzQE&t=710s 
+
+
+How can I clone the testing branch?
+```
+git clone --branch testing https://github.com/vichanzo/sonarr_qbit
+``` 
