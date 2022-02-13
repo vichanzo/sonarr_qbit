@@ -62,11 +62,13 @@ services:
   rclone:
     image: rclone/rclone
     container_name: rclone
+    command: rcd --rc-web-gui --rc-addr :5572 --rc-user sqbit --rc-pass adminadmin
     environment:
       - PUID=1000
       - PGID=1000
     volumes:
-      - ./rclone:/config/rclone
+      - ./rclone/config:/config/rclone
+      - ./rclone/logs:/logs
       - ./mydata:/mydata
     ports:
       - 5572:5572
