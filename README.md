@@ -27,6 +27,7 @@ What does this do?
 That's it.  After you finish this you can follow the guide by TechnoDadLife to set it up.  
      https://www.youtube.com/watch?v=5rtGBwBuzQE&t=710s 
 
+     https://unraid-guides.com/2021/01/17/how-to-add-all-indexers-from-jackett-to-sonarr-and-radarr
 
 How can I clone the testing branch?
 ```
