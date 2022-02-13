@@ -32,3 +32,13 @@ How can I clone the testing branch?
 ```
 git clone --branch testing https://github.com/vichanzo/sonarr_qbit
 ``` 
+
+Key git commands
+```
+git clone --branch testing https://github.com/vichanzo/sonarr_qbit
+cd ~/sonarr_qbit
+touch this_file.txt
+git add this_file.txt
+git commit -a -m "commit comment"
+git push
+``` 
