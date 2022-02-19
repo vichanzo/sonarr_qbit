@@ -28,6 +28,20 @@ services:
     ports:
       - 7878:7878
     restart: unless-stopped
+   
+  sabnzbd:
+    image: lscr.io/linuxserver/sabnzbd
+    container_name: sabnzbd
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ./sabnzbd:/config
+      - ./downloads:/downloads #optional
+      - ./dl:/incomplete-downloads #optional
+    ports:
+      - 8088:8080
+    restart: unless-stopped
     
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent
