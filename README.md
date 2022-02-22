@@ -1,6 +1,6 @@
 # sonarr_qbit
 
-Here's a quick start using Play-With-Docker (PWD) to very quickly set up a Sonarr-Qbittorrent-Jacket stack containing Prometheus, Grafana and Node scraper to monitor your Docker infrastructure. The Try in PWD below allows you to quickly deploy the stack with a click of the button.  In order to use this you will need a Docker login.
+Here's a quick start using Play-With-Docker (PWD) to very quickly set up a Sonarr-Qbittorrent-Jacket stack containing Sonarr, Radarr, Qbitttorent, and Jackett. The Try in PWD below allows you to quickly deploy the stack with a click of the button.  In order to use this you will need a Docker login.
 
 [![Try in PWD](https://github.com/play-with-docker/stacks/raw/master/assets/images/button.png)](https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/vichanzo/sonarr_qbit/main/docker-compose.yml)
 
