@@ -44,19 +44,26 @@ services:
     restart: unless-stopped
     
   qbittorrent:
-    image: lscr.io/linuxserver/qbittorrent
+    image: qbittorrentofficial/qbittorrent-nox:latest
     container_name: qbittorrent
     environment:
-      - PUID=1000
-      - PGID=1000
-      - WEBUI_PORT=8080
+#      - PUID=1000
+#      - PGID=1000
+      - QBT_EULA=accept
+      - QBT_WEBUI_PORT=8080
+      - TZ=Europe/London
+    read_only: true
+    stop_grace_period: 30m
+    tmpfs:
+      - /tmp
+    tty: true      
     volumes:
-      - ./qbit:/config
+      - ./qbit-nox:/config
       - ./downloads:/downloads
     ports:
       - 6881:6881
       - 6881:6881/udp
-      - 8080:8080
+      - 8081:8080
     restart: unless-stopped
     
     
